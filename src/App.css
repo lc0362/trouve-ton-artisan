@@ -1,38 +1,40 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Graphik', Arial, sans-serif; 
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Graphik', Arial, sans-serif;
 }
 
 .App-link {
-  color: #61dafb;
+  font-family: 'Graphik-Italic', Arial, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('./fonts/Graphik-Regular-Trial.woff') format('woff'),
+       url('./fonts/Graphik-Regular-Trial.otf') format('opentype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik-Italic';
+  src: url('./fonts/Graphik-RegularItalic-Trial.woff') format('woff'),
+       url('./fonts/Graphik-RegularItalic-Trial.otf') format('opentype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Graphik-Bold';
+  src: url('./fonts/Graphik-Bold-Trial.woff') format('woff'),
+       url('./fonts/Graphik-Bold-Trial.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
 }
