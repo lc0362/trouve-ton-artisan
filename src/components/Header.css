@@ -1,0 +1,60 @@
+.navbar {
+    background-color: white; 
+
+  }
+
+  .navbar-logo {
+    max-width: 350px; 
+    height: auto; 
+}
+
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    color: var(--secondary-color);
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: var(--accent-color);
+  }
+  
+  /* Barre de recherche (visible sur grands écrans) */
+.search-bar {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    flex: 1;
+    margin-right: 0.5rem;
+}
+
+.search-bar button {
+    white-space: nowrap;
+}
+
+/* Icône de recherche (visible uniquement sur mobile) */
+.search-icon {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+/* Icône pour mobile (masquer barre sur grands écrans) */
+.d-lg-none {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .d-lg-none {
+        display: inline-block;
+    }
+    .d-lg-flex {
+        display: none !important;
+    }
+}

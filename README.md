@@ -1,3 +1,11 @@
+# Projet "CREER LE SITE TROUVE TON ARTISAN AVEC "REACT.JS""
+
+## Prérequis
+- Node.js 
+- npm 
+- Boostrap via la commande npm install react-bootstrap bootstrap
+- React-router-dom via la commande npm install react-router-dom et npm install bootstrap-icons
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
