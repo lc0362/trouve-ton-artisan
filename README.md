@@ -5,6 +5,7 @@
 - npm 
 - Boostrap via la commande npm install react-bootstrap bootstrap
 - React-router-dom via la commande npm install react-router-dom et npm install bootstrap-icons
+- Installer les icones React avec la commande npm install react-icons
 
 # Getting Started with Create React App
 

@@ -1,0 +1,20 @@
+.container-blue{
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    padding: 2rem;
+    line-height: 2;
+}
+
+.h1-home {
+text-align: center;
+
+}
+
+.list-number{
+    background-color: var(--color-primary);
+   padding: 0.2rem;
+   padding-right: 0.8rem;
+   padding-left: 0.8rem;
+   border-radius:15px;
+}
+

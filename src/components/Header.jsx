@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
+import { HiMenuAlt2 } from "react-icons/hi";
+
 
 function Header() {
     return (
@@ -14,25 +16,25 @@ function Header() {
                         className="navbar-logo"
                     />
                 </Link>
-
+<div className="loupe-menu">
                 {/* Barre de recherche */}
                 <form className="d-none d-lg-flex search-bar ms-3">
                     <input 
                         type="text" 
                         className="form-control" 
-                        placeholder="Rechercher..." 
                         aria-label="Search"
                     />
-                    <button type="submit" className="btn btn-primary">Rechercher</button>
+                    <i className="bi bi-search"></i> {/* Icône Bootstrap pour la loupe */}
+                    
                 </form>
-
+<div className></div>
                 {/* Icône loupe pour mobile */}
                 <button 
                     className="btn btn-link d-lg-none search-icon" 
                     type="button"
                     aria-label="Rechercher"
                 >
-                    <i className="bi bi-search"></i> {/* Icône Bootstrap pour la loupe */}
+                    <i className="bi bi-search icon-loupe"></i> {/* Icône Bootstrap pour la loupe */}
                 </button>
 
                 {/* Menu burger */}
@@ -45,9 +47,12 @@ function Header() {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span className="navbar-toggler-icon"></span>
+                    <div className="icon-menu-container">
+                   <HiMenuAlt2 className="icon-burger" /> {/* Icône React pour le menu */}
+                   <span className="menu-text">Menu</span>
+                   </div>
                 </button>
-
+                </div>
                 {/* Liens de navigation */}
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-lg-auto">
