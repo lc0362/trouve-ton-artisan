@@ -10,6 +10,7 @@ function Footer() {
             <img src="/bulle-bas.png" alt="Bulle d'information" />
         </div>
             <div className='contain-footer'>
+                <div className="logo-adresse">
             <Link className="logo-blanc" to="/">
                     <img 
                         src="/Logo-blanc.png" 
@@ -25,13 +26,23 @@ function Footer() {
                     <a href="tel:+330426734000">+33 (0)4 26 73 40 00</a>
                     </address>
                 </div>
+                </div>
 
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <line x1="1000" y1="0" x2="0" y2="0" stroke="white" />
+<div className='line'>
+                <svg viewBox="0 0 200 1" xmlns="http://www.w3.org/2000/svg">
+  <line x1="1000" y1="0" x2="0" y2="0" stroke="white" /></svg>
+</div>
 
-
-</svg>
-
+<div className='contain-footer'>
+    <p>Mentions légales</p>
+    <p>Données personnelles</p>
+    <p>Données Accessibilité : partiellement conforme</p>
+    <p>Presse</p>
+    <p>Marchés publics</p>
+    <p>Venir à la Région</p>
+    <p>Contacts</p>
+    <p>Gestion des cookies</p>
+</div>
 
     </div>
     </div>
