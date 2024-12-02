@@ -8,7 +8,8 @@
 
 .contain-blue{
     padding: 1rem;
-    
+    max-width: 400px; 
+    margin: 0 auto; 
 }
 
 .h1-home {
@@ -45,10 +46,14 @@ margin-right: 0.2rem;
 }
 
 .artisans-mois{
-    padding-top: 0;
     margin-left: 1em;
     margin-right: 1em;
 }
+
+.dash-title{
+    padding-left: 3em;
+}
+
 .dash {
     color: var(--color-primary);
     margin: -0.3em;
@@ -56,12 +61,14 @@ margin-right: 0.2rem;
     line-height: 0.2em;
 }
 
+
 .artisan-card{
     background-color: var(--color-white);
     color: var(--color-dark);
     text-align: center;
     padding: 2rem;
-    margin: 2em 0.1em 2em 0.1em;
+    margin: 0 0.1em 0.2em 0.1em;
+    
 }
 
 .artisan-card h2{
@@ -69,4 +76,48 @@ margin-right: 0.2rem;
     color: var(--color-secondary);
 }
 
+/* Responsive à partir des écrans  tablet*/
+@media (min-width: 740px) {
+    .main-container, .contain-blue {
+        max-width: 900px; 
+        margin: 0 auto; 
+    }
+
+
+
+    .contain-blue {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        flex-wrap: wrap; 
+    }
+
+    .h1-home {
+        flex: 1; 
+        text-align: left; 
+        margin-bottom: 0; 
+    }
+
+
+    .list {
+        flex: 1; 
+        text-align: left; 
+    }
+
+
+    .artisans-grid {
+        display: flex;
+        gap: 5px; 
+        flex-flow: row wrap;
+        padding-top: 2em;
+    }
+    
+    .artisan-card {
+        flex: 1 1 calc(33.333% - 10px); 
+        max-width: calc(33.333% - 10px);
+        min-width: calc(33.333% - 10px);
+        
+    }
+    
+}
 

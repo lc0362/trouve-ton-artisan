@@ -12,6 +12,7 @@ function Home() {
         <>
             <div className='container-blue'>
                 <div className='contain-blue'>
+               
                     <h1 className='h1-home text-center'>Comment trouver mon artisan ?</h1>
                     <div className='list'>
                         <p>
@@ -27,6 +28,7 @@ function Home() {
                             <b className='list-number'>4</b> Une réponse sera apportée sous 48h.
                         </p>
                     </div>
+                
                 </div>
                 <div className="arrondi">
                     <img src="/bulle-haut.png" alt="Bulle d'information" />
@@ -34,11 +36,14 @@ function Home() {
             </div>
            
             <div className='artisans-mois'>
-                <div className='dash'>
+                <div className="main-container">
+                    <div className='dash-title'>
+                    <div className='dash'>
                     <VscDash />
                 </div>
 
                 <h1 className='h1-home h1-secondary'>Artisans du mois</h1>
+                </div>
 
                 {/* Affichage des artisans */}
                 <div className="artisans-grid">
@@ -58,6 +63,7 @@ function Home() {
                             </div>
                         );
                     })}
+                </div>
                 </div>
             </div>
         </>
