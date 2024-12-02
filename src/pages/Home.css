@@ -1,13 +1,23 @@
 .container-blue{
     background-color: var(--color-secondary);
     color: var(--color-white);
-    padding: 2rem;
     line-height: 2;
+    z-index: 1; 
+}
+
+
+.contain-blue{
+    padding: 1rem;
+    
 }
 
 .h1-home {
-text-align: center;
+margin-bottom: 2rem;
+font-size: 1.1em;
+}
 
+.h1-secondary{
+    color: var(--color-secondary);
 }
 
 .list-number{
@@ -15,6 +25,48 @@ text-align: center;
    padding: 0.2rem;
    padding-right: 0.8rem;
    padding-left: 0.8rem;
-   border-radius:15px;
+   border-radius:40%;
+margin-right: 0.2rem;
 }
+
+.list {
+   font-size: 0.9em;
+}
+
+.arrondi {
+    text-align: center; 
+}
+
+.arrondi img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.artisans-mois{
+    padding-top: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.dash {
+    color: var(--color-primary);
+    margin: -0.3em;
+    font-size: 5rem;
+    line-height: 0.2em;
+}
+
+.artisan-card{
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    text-align: center;
+    padding: 2rem;
+    margin: 2em 0.1em 2em 0.1em;
+}
+
+.artisan-card h2{
+    font-size: 1.1em;
+    color: var(--color-secondary);
+}
+
 

@@ -77,6 +77,10 @@
     display: none;
 }
 
+.search-menu-mobile{
+  display: flex;
+}
+
 @media (max-width: 1024px) {
     .d-lg-none {
         display: inline-block;

@@ -27,7 +27,7 @@ function Header() {
                     <i className="bi bi-search"></i> {/* Icône Bootstrap pour la loupe */}
                     
                 </form>
-<div className></div>
+<div className='search-menu-mobile'>
                 {/* Icône loupe pour mobile */}
                 <button 
                     className="btn btn-link d-lg-none search-icon" 
@@ -52,6 +52,7 @@ function Header() {
                    <span className="menu-text">Menu</span>
                    </div>
                 </button>
+                </div>
                 </div>
                 {/* Liens de navigation */}
                 <div className="collapse navbar-collapse" id="navbarNav">
