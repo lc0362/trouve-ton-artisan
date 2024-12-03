@@ -66,17 +66,59 @@ margin-right: 0.2rem;
   margin: 0 auto;
 }
 
-.artisan-card{
+.artisan-card {
     background-color: var(--color-white);
     color: var(--color-dark);
     text-align: center;
     padding: 2rem;
     margin-bottom: 1em;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease, transform 0.3s ease; 
 }
 
+.artisan-card:hover {
+    border-color: var(--color-primary); 
+    cursor: pointer;
+}
+
+.artisan-card .arrow {
+    display: inline-block;
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.artisan-card:hover .arrow {
+    transform: scale(1.2); 
+}
 .artisan-card h2{
     font-size: 1.1em;
     color: var(--color-secondary);
+}
+
+.arrow {
+    display: inline-block;
+    color: var(--color-primary); 
+    font-size: 1.5rem; 
+}
+
+.button-home {
+    text-align: center;
+}
+
+.button-home button {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: 5px 40px 5px 40px;
+    border-radius: 20px !important;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.button-home button:hover {
+    background-color: var(--color-secondary); 
+    transform: scale(1.05); 
 }
 
 /* Responsive à partir des écrans  tablet*/
@@ -85,8 +127,6 @@ margin-right: 0.2rem;
         max-width: 900px; 
         margin: 0 auto; 
     }
-
-
 
     .contain-blue {
         display: flex;

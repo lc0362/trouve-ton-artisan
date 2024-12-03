@@ -60,10 +60,16 @@ function Home() {
                                 <strong>{artisan.location}</strong>
                                     {departement && ` (${departement})`} {/* Si le département n'est pas précisé, vide */}
                                 </p>
+                                <i className="bi bi-arrow-right-short arrow"></i>
                             </div>
                         );
                     })}
                 </div>
+
+
+    <div className='button-home'>
+        <button> Tous les artisans </button>    </div>
+
                 </div>
             </div>
         </>
