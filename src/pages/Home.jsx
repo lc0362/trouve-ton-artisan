@@ -3,6 +3,7 @@ import './Home.css';
 import { VscDash } from "react-icons/vsc";
 import artisansData from "../components/data/datas.json";
 import departementsData from "../components/data/departements.json";
+import Rating from '../components/Rating';
 
 function Home() {
     // Récupérer les artisans en valeur top dans propriété true
@@ -54,7 +55,7 @@ function Home() {
                         return (
                             <div key={artisan.id} className="artisan-card">
                                 <h2>{artisan.name}</h2>
-                                <p>{artisan.note}/5</p>
+                                <p className="rate"><strong>{artisan.note} </strong><Rating note={artisan.note} /></p>
                                 <p><strong>{artisan.specialty}</strong>. {artisan.about}</p>
                                 <p>
                                 <strong>{artisan.location}</strong>

@@ -9,7 +9,7 @@ function Footer() {
         <div className="arrondi">
             <img src="/bulle-bas.png" alt="Bulle d'information" />
         </div>
-            <div className='contain-footer'>
+            <div className='contain-part1'>
                 <div className="logo-adresse">
             <Link className="logo-blanc" to="/">
                     <img 
@@ -33,7 +33,7 @@ function Footer() {
   <line x1="1000" y1="0" x2="0" y2="0" stroke="white" /></svg>
 </div>
 
-<div className='contain-footer'>
+<div className='contain-part2'>
     <p>Mentions légales</p>
     <p>Données personnelles</p>
     <p>Données Accessibilité : partiellement conforme</p>
