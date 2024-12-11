@@ -1,3 +1,5 @@
+
+
 .container-blue{
     background-color: var(--color-secondary);
     color: var(--color-white);
@@ -28,6 +30,7 @@ font-size: 1.1em;
    padding-left: 0.8rem;
    border-radius:40%;
 margin-right: 0.2rem;
+
 }
 
 .list {
@@ -136,20 +139,34 @@ margin-right: 0.2rem;
         justify-content: space-between; 
         align-items: center; 
         flex-wrap: wrap; 
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        
     }
 
     .h1-home {
         flex: 1; 
         text-align: left; 
         margin-bottom: 0; 
+        font-size: 1.6em;
+        max-width: 30%;
     }
 
+    .h1-primary{
+        margin-left: 3em;
+    }
+
+  
 
     .list {
         flex: 1; 
         text-align: left; 
+        max-width: 70%;
+        margin-left: 5em;
+        font-size: 1em;
     }
-
+   
+     
 
     .artisans-grid {
         display: flex;

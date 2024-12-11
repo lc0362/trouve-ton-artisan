@@ -14,7 +14,7 @@ function Home() {
             <div className='container-blue'>
                 <div className='contain-blue'>
                
-                    <h1 className='h1-home text-center'>Comment trouver mon artisan ?</h1>
+                    <h1 className='h1-home h1-primary text-center'>Comment trouver mon artisan ?</h1>
                     <div className='list'>
                         <p>
                             <b className='list-number'>1</b> Choisir la catégorie d'artisanat dans le menu.

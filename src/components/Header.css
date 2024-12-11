@@ -80,6 +80,15 @@
   display: flex;
 }
 
+.nav-item {
+  margin-left: 2em;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 992) {
     .d-lg-none {
         display: inline-block;
